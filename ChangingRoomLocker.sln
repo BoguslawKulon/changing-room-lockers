@@ -3,7 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChangingRoomLocker", "ChangingRoomLocker\ChangingRoomLocker.csproj", "{FCEF038C-37F7-4995-A20F-6483A60094F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChangingRoomLocker", "ChangingRoomLocker\ChangingRoomLocker.csproj", "{FCEF038C-37F7-4995-A20F-6483A60094F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C0EFF15B-1B58-4BFD-9387-18C02D9A4B01}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{4472E494-521B-48C5-B3C4-F7B1126CFCF6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +22,10 @@ Global
 		{FCEF038C-37F7-4995-A20F-6483A60094F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCEF038C-37F7-4995-A20F-6483A60094F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FCEF038C-37F7-4995-A20F-6483A60094F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4472E494-521B-48C5-B3C4-F7B1126CFCF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4472E494-521B-48C5-B3C4-F7B1126CFCF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4472E494-521B-48C5-B3C4-F7B1126CFCF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4472E494-521B-48C5-B3C4-F7B1126CFCF6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
