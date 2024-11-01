@@ -1,4 +1,4 @@
-﻿namespace ChangingRoomLocker.Modules.Lockers
+﻿namespace ChangingRoomLocker.Modules.Lockers.Models
 {
     public class Locker
     {
@@ -7,5 +7,7 @@
         public LockerSerialNumber SerialNumber { get; set; }
         public int OrderNumber { get; set; }
         public LockerPosition Position { get; set; }
+
+        public TimeRange Reservation { get; set; }
     }
 }

@@ -1,4 +1,4 @@
-﻿namespace ChangingRoomLocker.Modules.Lockers;
+﻿namespace ChangingRoomLocker.Modules.Lockers.Models;
 
 public class ChangingRoom
 {
