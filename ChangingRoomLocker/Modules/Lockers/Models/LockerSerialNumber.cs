@@ -1,3 +1,3 @@
 ﻿namespace ChangingRoomLocker.Modules.Lockers.Models;
 
-public record LockerSerialNumber(string serialNumber);
+public record LockerSerialNumber(string SerialNumber);
