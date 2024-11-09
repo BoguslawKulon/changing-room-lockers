@@ -1,6 +1,6 @@
 ﻿namespace ChangingRoomLocker.Modules.Lockers.Models;
 
-public enum ChangingRoomType : byte
+public enum Gender : byte
 {
     Men = 1,
     Women = 2,

@@ -1,4 +1,4 @@
-using ChangingRoomLocker.Modules.Lockers;
+using ChangingRoomLocker.Modules.Lockers.Models;
 
 namespace Tests;
 
@@ -9,7 +9,7 @@ public class LockerSerialNumberTests
     {
         var lockerSerialNumber = new LockerSerialNumber("abc");
 
-        var result = lockerSerialNumber.serialNumber;
+        var result = lockerSerialNumber.SerialNumber;
 
         Assert.Equal("abc", result);
     }
