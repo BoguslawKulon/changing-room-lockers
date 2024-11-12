@@ -8,5 +8,10 @@ public class Locker
     public int OrderNumber { get; set; }
     public LockerPosition Position { get; set; }
 
-    public TimeRange Reservation { get; set; }
+    //public TimeRange Reservation { get; set; }
+
+    public bool CanBeChosen()
+    {
+        return LockerStatus == LockerStatus.Available;
+    }
 }
